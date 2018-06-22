@@ -190,7 +190,6 @@ int main()
       glVertex3f(1.0f, -1.0f,  1.0f);
       glVertex3f(1.0f, -1.0f, -1.0f);
    glEnd();  // End of drawing color-cube
-   ///////
     glfwSwapBuffers(window);
     glfwPollEvents();
   }

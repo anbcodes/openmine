@@ -191,10 +191,7 @@ int main()
       glVertex3f(1.0f, -1.0f, -1.0f);
    glEnd();  // End of drawing color-cube
 
-    // gluLookAt(1, 1, 1, 1, 1, 1, 0, 0, 1);
     glfwSwapBuffers(window);
-    // Keep running
-    // printf("%f %f", Mouse::x, Mouse::y);
     glfwPollEvents();
   }
   glfwTerminate();
